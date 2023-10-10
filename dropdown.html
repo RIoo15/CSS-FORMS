@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+  </head>
+  <body>
+    <form>
+      <select>
+        <option value="">Select a Course</option>
+        <option value="1">CSS</option>
+        <option value="2">Java</option>
+        <option value="3">HTML</option>
+      </select>
+
+      <!-- <select>
+        <option value="">Select a Course</option>
+        <option value="1" selected>CSS</option>
+        it will select auto
+        <option value="2">Java</option>
+        <option value="3">HTML</option>
+      </select> -->
+
+      <!-- for selecting multiple values -->
+      <select multiple>
+        <option value="1">CSS</option>
+        <option value="2">Java</option>
+        <option value="3">HTML</option>
+      </select>
+
+      <select>
+        <optgroup label="Front-End-Courses">
+          <option value="1">CSS</option>
+          <option value="2">Java</option>
+          <option value="3">HTML</option>
+        </optgroup>
+        <optgroup label="Back-End-Courses">
+          <option value="1">Node.js</option>
+          <option value="2">Asp.Net</option>
+          <option value="3">Django</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>
